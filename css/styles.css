@@ -91,7 +91,7 @@ h1, h2, h3 {
 #projects .projDet img {
     width: 80%;
 }
-#projects .projDet img:hover {
+#projects .projDet img:hover:not(.no-hover) {
     transform: scale(1.1);
 }
 #projects .projDet p {

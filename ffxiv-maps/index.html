@@ -3,12 +3,66 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="script.js"></script>
+    <title>FFXIV Maps</title>
 </head>
 
 <body>
-    <H1>Hello Fishing</H1>
+    <header>
+        <button title="Jump to home server&#013Shift click to set home server to current server" id="home-server-btn">
+            <img src="house.svg">
+        </button>
+        <select id="server-select">
+            <option value="Adamantoise">Adamantoise</option>
+            <option value="Cactuar">Cactuar</option>
+            <option value="Faerie">Faerie</option>
+            <option value="Gilgamesh">Gilgamesh</option>
+            <option value="Jenova">Jenova</option>
+            <option value="Midgardsormr">Midgardsormr</option>
+            <option value="Sargatanas">Sargatanas</option>
+            <option value="Siren">Siren</option>
+            <option value="Behemoth">Behemoth</option>
+            <option value="Excalibur">Excalibur</option>
+            <option value="Exodus">Exodus</option>
+            <option value="Famfrit">Famfrit</option>
+            <option value="Hyperion">Hyperion</option>
+            <option value="Lamia">Lamia</option>
+            <option value="Leviathan">Leviathan</option>
+            <option value="Ultros">Ultros</option>
+            <option value="Balmung">Balmung</option>
+            <option value="Coeurl">Coeurl</option>
+            <option value="Diabolos">Diabolos</option>
+            <option value="Goblin">Goblin</option>
+            <option value="Malboro">Malboro</option>
+            <option value="Mateus">Mateus</option>
+            <option value="Zalera">Zalera</option>
+            <option value="Halicarnassus">Halicarnassus</option>
+            <option value="Maduin">Maduin</option>
+            <option value="Marilith">Marilith</option>
+            <option value="Seraph">Seraph</option>
+        </select>
+        <select id="items-select">
+            <option value="maps">Maps</option>
+            <option value="wCScrips">White Crafter Scrips</option>
+            <option value="pCScrips">Purple Crafter Scrips</option>
+            <option value="wGScrips">White Gatherer Scrips</option>
+            <option value="pGScrips">Purple Gatherer Scrips</option>
+            <option value="shbFateGems">ShB Bi-Color Gemstones</option>
+            <option disabled value="ewFateGems">EW Bi-Color Gemstones</option>
+            <option value="astronomies">Tomestone of Astronomy</option>
+            <option value="gcseals">Grand Company Seals</option>
+            <option value="sCowries">Seafarer's Cowrie</option>
+            <option value="iCowries">Islander's Cowrie</option>
+        </select>
+    </header>
+    <hr>
+    <div id="results">
+
+    </div>
 </body>
 
 </html>
