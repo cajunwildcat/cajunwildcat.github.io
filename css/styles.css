@@ -1,0 +1,157 @@
+body {
+    background-color: #fceede;
+    color: #1E1E1E;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2, h3 {
+    color: #E58B00;
+}
+
+/*==========ABOUT==========*/
+
+#about {
+    display: flex;
+    flex-flow: row nowrap;
+    word-wrap: normal;
+    padding: 30px;
+    margin: 0px 15%;
+    border-bottom: 2px solid navy;
+}
+#about .aboutText {
+    text-align: right;
+    flex-flow: column nowrap;
+    margin: 0 1vw 0 0;
+}
+#about h1 {
+    font-size: 4vmax;
+    padding: 10px;
+    margin: 30px 0px;
+}
+#about h2 {
+    font-size: 2vmax;
+    padding: 0;
+    margin: 0;
+}
+#about p {
+    font-size: 2.8vmin;
+    margin: 0 10px;
+}
+#about img {
+    max-width: 35%;
+    align-self: center;
+}
+
+@media screen and (max-width:750px) {
+    #about {
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        margin: 10vw;
+        padding: 0px;
+    }
+    #about .aboutText {
+        text-align: center;
+    }
+    #about .aboutText p {
+        font-size: 2vh;
+    }
+    #about h1 {
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+    #about img {
+        max-width: 50%;
+    }
+}
+
+/*==========PROJECTS==========*/
+
+#projects {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 30px;
+}
+#projects h1 {
+    font-size: 4vmax;
+    width: 100%;
+    margin: 1vw;
+}
+#projects .projDet {
+    flex-flow: row wrap;
+    width: 50%;
+    margin: 0px 0px 20px;
+}
+#projects .projDet h3 {
+    color:navy;
+    font-size: 2rem;
+}
+#projects .projDet img {
+    width: 80%;
+}
+#projects .projDet img:hover {
+    transform: scale(1.1);
+}
+#projects .projDet p {
+    padding: 10px;
+    margin: 0 10%;
+    font-size: 2.2vmin;
+}
+
+@media screen and (max-width:750px) {
+    #projects {
+        flex-flow: column wrap;
+        padding: 0px;
+        margin: 0px 10vw;
+    }
+    #projects .projDet {
+        width: 100%;
+    }
+    #projects h1 {
+        margin: 0px 0px 5vw 0px;
+    }
+    #projects .projDet img {
+        width: 100%;
+    }
+    #projects .projDet h3 {
+        margin: 10px 0px 0px;
+        padding: 0px;
+    }
+    #projects .projDet p {
+        width: 100%;
+        margin: 10px 0px;
+        padding: 0px;
+        font-size: 2vh;
+    }
+}
+
+/*==========CONTACT==========*/
+#contact {
+    flex-flow: column nowrap;
+    align-self: center;
+    text-align: center;
+    font-size: 2.5rem;
+    max-width: 500px;
+    margin: 0px auto 1vw;
+    border-top: 2px solid navy;
+}
+#contact h1 {
+    font-size: 4vmax;
+    margin: 30px 0px 60px;
+}
+#contact .social {
+    flex-flow: row nowrap;
+    margin: 0px 10px;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width:750px) {
+    #contact .social {
+        margin: 0px 5px;
+        width: 40px;
+        height: 40px;
+    }
+}

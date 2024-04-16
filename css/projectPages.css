@@ -1,0 +1,33 @@
+body {
+    background-color: #fceede;
+    color: #1E1E1E;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2, h3 {
+    color: #E58B00;
+    text-align: center;
+}
+h1 {
+    font-size: 7vmin;
+}
+
+#quickDetails {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0 20vw;
+    border: 1px solid grey;
+    background-color: #e4dace;
+    font-size: 1.5vmax;
+}
+#quickDetails div {
+    margin: auto;
+    padding: 1%;
+    width: 50%;
+}
+#quickDetails img {
+    width: 100%
+}

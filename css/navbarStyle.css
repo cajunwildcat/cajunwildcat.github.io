@@ -1,0 +1,61 @@
+/*==========NAVBAR==========*/
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #F26E4B;
+    padding: 0px 5%;
+    margin: 0px;
+    height: 5rem;
+}
+#navbar #homeButton {
+    margin-right: auto;
+}
+#navbar .navItem {
+    display: block;
+    width: 85px;
+    font-size: 1.5rem;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 1%;
+}
+#navbar .navItem p {
+    margin: 30% 0px;
+}
+#navbar .navItem:hover {
+    background-color:#ec623b;
+}
+
+#navbar a:link {
+    color:rgb(44, 103, 117);
+    text-decoration: none;
+}
+#navbar a:visited {
+    color:rgb(44, 103, 117);
+}
+#navbar a:hover {
+    color:white;
+}
+#navbar a:active {
+    color:white;
+}
+
+@media screen and (max-width:750px) {
+    /*-1 margin on left is to hide the left border of the Home item*/
+    .navbar {
+        padding: 0px;
+        margin: 0px 6px 0px -1px;
+    }
+    .navbar .navItem {
+        display: flex;
+        width: 25%;
+        padding: 0px;
+        border-left: 1px dotted navy;
+        align-items: center;
+    }
+    .navbar .navItem p {
+        margin: 0px;
+    }
+}
