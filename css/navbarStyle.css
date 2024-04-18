@@ -29,11 +29,11 @@
 }
 
 #navbar a:link {
-    color:rgb(44, 103, 117);
+    color:rgb(125, 219, 219);
     text-decoration: none;
 }
 #navbar a:visited {
-    color:rgb(44, 103, 117);
+    color:rgb(125, 219, 219);
 }
 #navbar a:hover {
     color:white;
