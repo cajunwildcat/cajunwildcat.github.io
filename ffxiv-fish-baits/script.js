@@ -1,3 +1,5 @@
+//TODO: add regex match for text currently on clipboard so you don't paste random shit into the box
+
 let api_URL = "https://xivapi.com/";
 let request = new XMLHttpRequest;
 request.onload = dataGot;
