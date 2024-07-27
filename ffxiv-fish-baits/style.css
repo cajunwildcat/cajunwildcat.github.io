@@ -29,9 +29,11 @@ body {
     justify-content: center;
     text-align: center;
     margin: 30px;
+    margin-bottom: 10px;
     padding: 0px;
     background-color: #313131;
     text-shadow: rgba(255, 204, 0, 0.288) 0px 0px 3px;
+    min-height: 95vh;
 }
 h3{
     padding: 1px;
@@ -78,8 +80,10 @@ a:before, a:visited{
 }
 footer{
     text-shadow: none;
-    margin: 10px;
+    margin: auto 10px 0 10px;
     color: #ccb98b;
+    background-color:#313131;
+    width: 100%;
 }
 footer a{
     color: rgba(255, 255, 255, 0.631);
