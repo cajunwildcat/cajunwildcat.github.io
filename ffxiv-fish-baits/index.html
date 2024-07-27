@@ -5,23 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carby Tracker Uncaught Fish Bait List</title>
+    <title>Bait Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <script src="script.js"></script>
-    <style>
-        #results {
-            display:flex;
-            flex-direction:column;
-            height: 85vh;
-            flex-wrap: wrap;
-        }
-    </style>
 </head>
 
 <body>
-    Go to <a href="https://ff14fish.carbuncleplushy.com/" target="_blank">https://ff14fish.carbuncleplushy.com/</a>, export your settings then paste them in the box below<br>
-    <textarea id="textarea" rows="4" cols="50"></textarea><br><button id="submit-button">Get Bait!</button>
+    <h1>FFXIV Uncaught Fish Bait Finder</h1>
+    <h3>Step One</h3>
+    <p>Click <a href="https://ff14fish.carbuncleplushy.com/" target="_blank">here</a> and export your settings.</p>
+    <h3>Step Two</h3>
+    <p>Paste them into the box below.</p>
+    <textarea id="textarea" rows="4" cols="50"></textarea><br>
+    <button id="submit-button">Get Bait!</button>
     <div id="results"></div>
+    <footer>
+        Created by <a href="https://cajunwildcat.github.io/" target="_blank">cajunwildcat</a>, UI by <a href="https://pictoparade.com/projects" target="_blank">picto</a>
+    </footer>
 </body>
 
 </html>

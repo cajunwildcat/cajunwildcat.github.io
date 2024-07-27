@@ -65,15 +65,19 @@ function dataGot(e) {
 
 function dataError(e) {
     //TODO: idk show an error message or something
+    //HI CAJUN :D - PICTO
 }
 
 function addHTML() {
     apiResults.forEach(function (bait, index) {
+        let baitBox = document.createElement('div');
+        baitBox.className = "bait";
         let row = document.createElement("h2");
         let icon = document.createElement("img");
         icon.src = api_URL + bait.Icon;
         row.innerHTML = bait.Name;
-        row.appendChild(icon);
-        resultsDiv.appendChild(row);
+        baitBox.appendChild(icon);
+        baitBox.appendChild(row)
+        resultsDiv.appendChild(baitBox);
     })
 }
