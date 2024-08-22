@@ -42,8 +42,9 @@ const convertTableToTemplate = (tableText) => {
         title = title.replace(/'''/g, ''); // Remove bolding apostrophes
 
         content = content.split("\n").map(r=>{
-            if (r.includes("[[file:Raid_parts_attack.png|60px|link=]]")) return "{{RaidPart|attack|pad=t}}";
-            if (r.includes("[[file:Hold_C.A._icon.png|link=|80px]]")) return "{{RaidPart|caoff}}";
+            if (r.includes("[[file:Raid_parts_attack.png|60px|link=]]")) return "{{RaidPart|attack|pad=t}}<br>";
+            if (r.includes("[[file:Hold_C.A._icon.png|link=|80px]]")) return "{{RaidPart|caoff|pad=t}}<br>";
+            if (r.includes("[[file:Auto_C.A._icon.png|link=|80px]]")) return "{{RaidPart|caon|pad=t}}<br>";
             if (r.includes("* Fated Chain")) return "{{RaidPart|fc|pad=t}}";
             else if (r.includes("{{CharacterSkill")) {
                 const skills = [];
